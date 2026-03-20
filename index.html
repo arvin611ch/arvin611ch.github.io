@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Arvin Cheng-Wei Chiang</title>
+  <title>Chengwei (Arvin) Chiang</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -11,39 +11,44 @@
 </head>
 <body>
 
-  <!-- Navigation -->
+  <!-- ───── NAVBAR ───── -->
   <nav class="navbar">
     <div class="nav-inner">
       <span class="nav-name">Arvin Chiang</span>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Research</a></li>
+        <li><a href="#research">Research</a></li>
         <li><a href="#leadership">Leadership</a></li>
         <li><a href="#awards">Awards</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <button class="nav-hamburger" aria-label="Menu">&#9776;</button>
     </div>
   </nav>
 
-  <!-- Hero -->
-  <header class="hero">
+  <!-- ───── HERO ───── -->
+  <header id="hero" class="hero">
     <div class="hero-inner">
       <div class="hero-text">
         <p class="hero-label">Hello, I'm</p>
-        <h1 class="hero-name">Chengwei (Arvin) Chiang<span class="hero-name-zh"> 江晟維</span></h1>
+        <h1 class="hero-name">
+          Chengwei (Arvin) Chiang
+          <span class="hero-name-zh">江晟維</span>
+        </h1>
         <p class="hero-subtitle">ML Researcher &amp; Mechanical Engineering Student</p>
-        <p class="hero-tagline">Co-founder of Perchai · NeurIPS 2025 Award Winner · NYCU</p>
+        <p class="hero-tagline">Co-founder of Perchai &nbsp;·&nbsp; NeurIPS 2025 Award Winner &nbsp;·&nbsp; NYCU</p>
         <div class="hero-cta">
-          <a href="#experience" class="btn-primary">View My Work</a>
+          <a href="#research" class="btn-primary">View My Work</a>
           <a href="#contact" class="btn-secondary">Get in Touch</a>
         </div>
       </div>
-      <div class="hero-badge">
-        <div class="badge-circle">
-          <span class="badge-initials">AC</span>
-          <div class="badge-ring"></div>
+      <div class="hero-avatar">
+        <div class="avatar-ring outer"></div>
+        <div class="avatar-ring inner"></div>
+        <div class="avatar-circle">
+          <span class="avatar-initials">AC</span>
         </div>
       </div>
     </div>
@@ -53,76 +58,76 @@
     </div>
   </header>
 
-  <!-- About -->
-  <section id="about" class="section section-light">
+  <!-- ───── ABOUT ───── -->
+  <section id="about" class="section bg-light">
     <div class="container">
       <h2 class="section-title">About Me</h2>
       <div class="about-grid">
         <div class="about-text">
           <p>
-            I'm a <strong>Mechanical Engineering student at NYCU</strong> pursuing an interdisciplinary path in
-            Artificial Intelligence. Passionate about bridging hardware intuition with
-            cutting-edge AI research, I co-founded <strong>Perchai</strong> — an independent, undergraduate-led
-            ML research group exploring diverse machine learning domains and targeting top-tier conference submissions.
+            I'm a <strong>Mechanical Engineering student at NYCU</strong> pursuing the
+            Cross-Disciplinary Program of Artificial Intelligence. Passionate about bridging
+            hardware intuition with cutting-edge AI research, I co-founded
+            <strong>Perchai</strong> — an independent, undergraduate-led ML research group
+            exploring diverse machine learning domains and targeting top-tier conference submissions.
           </p>
           <p>
-            My work spans Vision-Language-Action models, edge AI deployment, and LLM evaluation benchmarks.
-            My NeurIPS 2025 award and hands-on robotics background reflect my belief that the best
-            engineers are equally comfortable designing systems and communicating ideas. I completed the
-            <strong>770-km Camino de Santiago</strong> on foot — which pretty much sums up how I approach hard problems.
+            My work spans Vision-Language-Action models, edge AI deployment on NVIDIA Jetson Nano,
+            and LLM evaluation benchmarks. My NeurIPS 2025 award and hands-on robotics background
+            reflect my belief that the best engineers are equally comfortable designing systems and
+            communicating ideas. I completed the <strong>770-km Camino de Santiago</strong> on foot
+            — which pretty much sums up how I approach hard problems.
           </p>
         </div>
-        <div class="about-highlights">
-          <div class="highlight-card">
-            <span class="highlight-num">770km</span>
-            <span class="highlight-label">Camino de Santiago</span>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num">770km</span>
+            <span class="stat-label">Camino de Santiago</span>
           </div>
-          <div class="highlight-card">
-            <span class="highlight-num">NeurIPS</span>
-            <span class="highlight-label">2025 Award Winner</span>
+          <div class="stat-card">
+            <span class="stat-num">NeurIPS</span>
+            <span class="stat-label">2025 Award Winner</span>
           </div>
-          <div class="highlight-card">
-            <span class="highlight-num">ACL</span>
-            <span class="highlight-label">SRW 2026 Submission</span>
+          <div class="stat-card">
+            <span class="stat-num">ACL</span>
+            <span class="stat-label">SRW 2026 Submission</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Education -->
-  <section id="education" class="section section-dark">
+  <!-- ───── EDUCATION ───── -->
+  <section id="education" class="section bg-dark">
     <div class="container">
-      <h2 class="section-title section-title-light">Education</h2>
+      <h2 class="section-title light">Education</h2>
       <div class="timeline">
 
         <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3>National Yang Ming Chiao Tung University (NYCU)</h3>
-              <span class="timeline-date">Expected June 2028</span>
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <div>
+                <h3>National Yang Ming Chiao Tung University (NYCU)</h3>
+                <p class="tl-sub">B.S. in Mechanical Engineering &nbsp;·&nbsp; Hsinchu, Taiwan</p>
+                <p class="tl-note">Cross-Disciplinary Program of Artificial Intelligence (Engineering and Science)</p>
+              </div>
+              <span class="badge-date">Expected Jun 2028</span>
             </div>
-            <p class="timeline-sub">Bachelor of Science in Mechanical Engineering · Hsinchu, Taiwan</p>
-            <p class="timeline-note">Cross-Disciplinary Program of Artificial Intelligence (Engineering and Science)</p>
-            <div class="coursework">
-              <span class="cw-label">Coursework:</span>
-              Object-Oriented Programming · Introduction to Computer Science · Calculus · Linear Algebra · Algorithm · Data Structures · Signals and Systems
-            </div>
+            <p class="tl-courses"><span class="cw-label">Coursework:</span> OOP · Intro to CS · Calculus · Linear Algebra · Algorithms · Data Structures · Signals &amp; Systems</p>
           </div>
         </div>
 
         <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3>Korea University</h3>
-              <span class="timeline-date">Dec 2025 – Jan 2026</span>
-            </div>
-            <p class="timeline-sub">Winter Exchange Program – International Winter Campus · Seoul, Republic of Korea</p>
-            <div class="coursework">
-              <span class="cw-label">Coursework:</span>
-              AI in Business: Strategies, Applications, and Impact
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <div>
+                <h3>Korea University</h3>
+                <p class="tl-sub">Winter Exchange Program — International Winter Campus &nbsp;·&nbsp; Seoul, South Korea</p>
+                <p class="tl-note">AI in Business: Strategies, Applications, and Impact</p>
+              </div>
+              <span class="badge-date">Dec 2025 – Jan 2026</span>
             </div>
           </div>
         </div>
@@ -131,89 +136,127 @@
     </div>
   </section>
 
-  <!-- Research & Professional Experience -->
-  <section id="experience" class="section section-light">
+  <!-- ───── RESEARCH & PROFESSIONAL EXPERIENCE ───── -->
+  <section id="research" class="section bg-light">
     <div class="container">
       <h2 class="section-title">Research &amp; Professional Experience</h2>
 
-      <div class="exp-grid">
-
-        <!-- Perchai featured card -->
-        <div class="exp-card featured">
-          <div class="exp-card-header">
-            <div>
-              <h3>Perchai</h3>
-              <p class="exp-role">Co-founder &amp; Core Researcher</p>
-              <p class="exp-advisor">Advised by Prof. Hong-Han Shuai</p>
-            </div>
-            <span class="exp-date">Nov 2025 – Present</span>
+      <!-- Perchai -->
+      <div class="exp-featured">
+        <div class="exp-featured-head">
+          <div>
+            <h3>Perchai</h3>
+            <p class="role">Co-founder &amp; Core Researcher</p>
+            <p class="advisor">Advised by Prof. Hong-Han Shuai</p>
           </div>
-          <p class="exp-desc">An independent, undergraduate-led ML research group exploring diverse machine learning domains and targeting top-tier conference submissions.</p>
-
-          <!-- Sub-projects -->
-          <div class="sub-projects">
-
-            <div class="sub-project">
-              <div class="sub-project-header">
-                <span class="sub-project-title">Vision-Language-Action (VLA) Model Research</span>
-                <span class="sub-project-date">Jan 2026 – Present</span>
-              </div>
-              <ul class="exp-bullets">
-                <li>Designing a unified multimodal reasoning architecture that interleaves text chain-of-thought, visual reasoning, and action generation within a single end-to-end framework</li>
-                <li>Developing a learned modal router enabling the model to dynamically switch between text reasoning, visual sub-goal generation, and direct action based on task demands</li>
-              </ul>
-            </div>
-
-            <div class="sub-project">
-              <div class="sub-project-header">
-                <span class="sub-project-title">AI in Embedded Systems — Vehicle Perception &amp; Warning</span>
-                <span class="sub-project-date">Jan 2026 – Present</span>
-              </div>
-              <ul class="exp-bullets">
-                <li>Deploying real-time object detection and driver monitoring on NVIDIA Jetson Nano for vehicle perception and collision warning</li>
-                <li>Building a computer vision pipeline for detecting road hazards, pedestrians, and driver state under edge computing constraints</li>
-              </ul>
-            </div>
-
-            <div class="sub-project">
-              <div class="sub-project-header">
-                <span class="sub-project-title">MetaCog-Bench: Hallucination in Tool-Calling for Edge LLMs</span>
-                <span class="sub-project-date">Feb – Mar 2026</span>
-              </div>
-              <p class="sub-project-tag">Research Contributor · Submitted to ACL Student Research Workshop (SRW) 2026</p>
-              <ul class="exp-bullets">
-                <li>Conducted literature review and identified research gaps in existing tool-calling benchmarks, contributing to related work and problem formulation</li>
-                <li>Participated in methodology discussions on benchmark design, response taxonomy, and annotation pipeline</li>
-              </ul>
-            </div>
-
-          </div>
+          <span class="exp-date">Nov 2025 – Present</span>
         </div>
+        <p class="exp-overview">An independent, undergraduate-led ML research group exploring diverse machine learning domains and targeting top-tier conference submissions.</p>
+
+        <div class="projects">
+
+          <div class="project-item">
+            <div class="project-head">
+              <span class="project-name">Vision-Language-Action (VLA) Model Research</span>
+              <span class="project-date">Jan 2026 – Present</span>
+            </div>
+            <ul>
+              <li>Designing a unified multimodal reasoning architecture that interleaves text chain-of-thought, visual reasoning, and action generation within a single end-to-end framework</li>
+              <li>Developing a learned modal router enabling the model to dynamically switch between text reasoning, visual sub-goal generation, and direct action based on task demands</li>
+            </ul>
+          </div>
+
+          <div class="project-item">
+            <div class="project-head">
+              <span class="project-name">AI in Embedded Systems — Vehicle Perception &amp; Warning</span>
+              <span class="project-date">Jan 2026 – Present</span>
+            </div>
+            <ul>
+              <li>Deploying real-time object detection and driver monitoring on NVIDIA Jetson Nano for vehicle perception and collision warning</li>
+              <li>Building a computer vision pipeline for detecting road hazards, pedestrians, and driver state under edge computing constraints</li>
+            </ul>
+          </div>
+
+          <div class="project-item">
+            <div class="project-head">
+              <span class="project-name">MetaCog-Bench: Hallucination in Tool-Calling for Edge LLMs</span>
+              <span class="project-date">Feb – Mar 2026</span>
+            </div>
+            <p class="project-tag">Research Contributor &nbsp;·&nbsp; Submitted to ACL Student Research Workshop (SRW) 2026</p>
+            <ul>
+              <li>Conducted literature review and identified research gaps in existing tool-calling benchmarks, contributing to related work and problem formulation</li>
+              <li>Participated in methodology discussions on benchmark design, response taxonomy, and annotation pipeline</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Other experience cards -->
+      <div class="exp-cards">
 
         <div class="exp-card">
-          <div class="exp-card-header">
+          <div class="exp-card-head">
             <div>
               <h3>FIRST Robotics Competition (FRC)</h3>
-              <p class="exp-role">Core Team Member</p>
+              <p class="role">Core Team Member</p>
             </div>
             <span class="exp-date">Sep 2021 – Jun 2023</span>
           </div>
-          <ul class="exp-bullets">
+          <ul>
             <li>Developed Java-based control software for motor control and sensor integration on competition robots</li>
             <li>Organized and participated in technical workshops locally and internationally</li>
             <li>Served in a core leadership role, coordinating team operations across competition seasons</li>
           </ul>
         </div>
 
-        <div class="exp-card">
-          <div class="exp-card-header">
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── LEADERSHIP ───── -->
+  <section id="leadership" class="section bg-dark">
+    <div class="container">
+      <h2 class="section-title light">Leadership Experience</h2>
+      <div class="exp-cards">
+
+        <div class="exp-card dark">
+          <div class="exp-card-head">
+            <div>
+              <h3>Google Developer Group on Campus (GDGC NYCU)</h3>
+              <p class="role gold">Vice President &amp; Research Team Member</p>
+            </div>
+            <span class="exp-date">Aug 2025 – Present</span>
+          </div>
+          <ul>
+            <li>Engaged in collaborative research projects focused on AI applications</li>
+            <li>Managed club operations and coordinated inter-chapter exchange events with other GDGC chapters</li>
+          </ul>
+        </div>
+
+        <div class="exp-card dark">
+          <div class="exp-card-head">
+            <div>
+              <h3>Harvard Undergraduate Taiwan Leadership Conference</h3>
+              <p class="role gold">Teaching Assistant</p>
+            </div>
+            <span class="exp-date">May 2025 – Aug 2025</span>
+          </div>
+          <ul>
+            <li>Helped organize and coordinate large-scale workshops for 100+ attendees</li>
+            <li>Mentored high school students on leadership, teamwork, and communication</li>
+          </ul>
+        </div>
+
+        <div class="exp-card dark">
+          <div class="exp-card-head">
             <div>
               <h3>FIRST Robotics Team 7497</h3>
-              <p class="exp-role">Director of Public Relations &amp; Marketing</p>
+              <p class="role gold">Director of Public Relations &amp; Marketing</p>
             </div>
             <span class="exp-date">Jul 2022 – May 2023</span>
           </div>
-          <ul class="exp-bullets">
+          <ul>
             <li>Led team fundraising efforts and coordinated outreach workshops for students and fellow FRC teams</li>
             <li>Organized inter-team knowledge-exchange workshops on technical and non-technical topics</li>
             <li>Authored and edited the team's engineering journal and business plan</li>
@@ -224,85 +267,46 @@
     </div>
   </section>
 
-  <!-- Leadership -->
-  <section id="leadership" class="section section-dark">
+  <!-- ───── HONORS & AWARDS ───── -->
+  <section id="awards" class="section bg-gold">
     <div class="container">
-      <h2 class="section-title section-title-light">Leadership Experience</h2>
-
-      <div class="exp-grid">
-
-        <div class="exp-card exp-card-dark featured">
-          <div class="exp-card-header">
-            <div>
-              <h3>Google Developer Group on Campus (GDGC NYCU)</h3>
-              <p class="exp-role" style="color: var(--cal-gold-light);">Vice President &amp; Research Team Member</p>
-            </div>
-            <span class="exp-date">Aug 2025 – Present</span>
-          </div>
-          <ul class="exp-bullets">
-            <li>Engaged in collaborative research projects focused on AI applications</li>
-            <li>Managed club operations and coordinated inter-chapter exchange events with other GDGC chapters</li>
-          </ul>
-        </div>
-
-        <div class="exp-card exp-card-dark">
-          <div class="exp-card-header">
-            <div>
-              <h3>Harvard Undergraduate Taiwan Leadership Conference</h3>
-              <p class="exp-role" style="color: var(--cal-gold-light);">Teaching Assistant</p>
-            </div>
-            <span class="exp-date">May 2025 – Aug 2025</span>
-          </div>
-          <ul class="exp-bullets">
-            <li>Helped organize and coordinate large-scale workshops for 100+ attendees</li>
-            <li>Mentored high school students on leadership, teamwork, and communication</li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Awards & Certificates -->
-  <section id="awards" class="section section-gold">
-    <div class="container">
-      <h2 class="section-title">Awards &amp; Certificates</h2>
+      <h2 class="section-title">Honors &amp; Awards</h2>
       <div class="awards-grid">
 
-        <div class="award-card award-featured">
-          <div class="award-icon">&#127942;</div>
+        <div class="award-card featured">
+          <div class="award-icon">🏆</div>
           <div class="award-body">
-            <h3>Excellence Award – NeurIPS 2025 CURE-Bench</h3>
-            <p class="award-sub">Human-Aligned Evaluation Track</p>
+            <h3>Excellence Award — NeurIPS 2025 CURE-Bench</h3>
+            <p class="award-track">Human-Aligned Evaluation Track</p>
             <p class="award-date">Dec 2025</p>
             <p>Contributing team member in an award-winning ML benchmark project. Designed the project poster and presentation materials; presented research motivation, methodology, and results to a broad international audience at NeurIPS 2025.</p>
           </div>
         </div>
 
         <div class="award-card">
-          <div class="award-icon">&#127959;</div>
+          <div class="award-icon">🏗️</div>
           <div class="award-body">
-            <h3>Industrial Design Award – FIRST Robotics</h3>
-            <p class="award-sub">Sponsored by General Motors · New Taipei City × Hon Hai Regional</p>
+            <h3>Industrial Design Award — FIRST Robotics</h3>
+            <p class="award-track">Sponsored by General Motors &nbsp;·&nbsp; New Taipei City × Hon Hai Regional</p>
             <p class="award-date">Apr 2023</p>
           </div>
         </div>
 
         <div class="award-card">
-          <div class="award-icon">&#127891;</div>
+          <div class="award-icon">🎓</div>
           <div class="award-body">
             <h3>Machine Learning Specialization</h3>
-            <p class="award-sub">Coursera · DeepLearning.AI &amp; Stanford University</p>
+            <p class="award-track">Coursera · DeepLearning.AI &amp; Stanford University</p>
             <p class="award-date">Jan 2026</p>
             <p>Covered supervised learning, model evaluation, and data preprocessing. Applied skills in Python, TensorFlow, NumPy, and scikit-learn across hands-on projects.</p>
           </div>
         </div>
 
         <div class="award-card">
-          <div class="award-icon">&#129504;</div>
+          <div class="award-icon">🧠</div>
           <div class="award-body">
             <h3>Artificial Intelligence and Machine Learning</h3>
-            <p class="award-sub">NYCU · 2022 Autumn</p>
+            <p class="award-track">NYCU · 2022 Autumn</p>
             <p class="award-date">Oct – Dec 2022</p>
             <p>Studied foundational AI/ML concepts and the mathematical principles underlying neural networks.</p>
           </div>
@@ -312,15 +316,15 @@
     </div>
   </section>
 
-  <!-- Skills -->
-  <section id="skills" class="section section-light">
+  <!-- ───── SKILLS ───── -->
+  <section id="skills" class="section bg-light">
     <div class="container">
       <h2 class="section-title">Skills</h2>
       <div class="skills-grid">
 
         <div class="skill-group">
-          <h3 class="skill-group-title">Programming</h3>
-          <div class="skill-tags">
+          <h3 class="skill-label">Programming</h3>
+          <div class="tags">
             <span class="tag">Python</span>
             <span class="tag">C++</span>
             <span class="tag">C</span>
@@ -329,8 +333,8 @@
         </div>
 
         <div class="skill-group">
-          <h3 class="skill-group-title">ML / AI</h3>
-          <div class="skill-tags">
+          <h3 class="skill-label">ML / AI</h3>
+          <div class="tags">
             <span class="tag">NumPy</span>
             <span class="tag">scikit-learn</span>
             <span class="tag">TensorFlow</span>
@@ -339,8 +343,8 @@
         </div>
 
         <div class="skill-group">
-          <h3 class="skill-group-title">Embedded Systems</h3>
-          <div class="skill-tags">
+          <h3 class="skill-label">Embedded Systems</h3>
+          <div class="tags">
             <span class="tag">NVIDIA Jetson Nano</span>
             <span class="tag">Real-time Object Detection</span>
             <span class="tag">Edge Computing Deployment</span>
@@ -348,8 +352,8 @@
         </div>
 
         <div class="skill-group">
-          <h3 class="skill-group-title">Research Areas</h3>
-          <div class="skill-tags">
+          <h3 class="skill-label">Research Areas</h3>
+          <div class="tags">
             <span class="tag">Natural Language Processing</span>
             <span class="tag">Computer Vision</span>
             <span class="tag">Embodied AI</span>
@@ -358,8 +362,8 @@
         </div>
 
         <div class="skill-group">
-          <h3 class="skill-group-title">Languages</h3>
-          <div class="skill-tags">
+          <h3 class="skill-label">Languages</h3>
+          <div class="tags">
             <span class="tag">Mandarin Chinese (Native)</span>
             <span class="tag">English (Fluent)</span>
           </div>
@@ -369,29 +373,29 @@
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="section section-dark">
+  <!-- ───── CONTACT ───── -->
+  <section id="contact" class="section bg-dark">
     <div class="container">
-      <h2 class="section-title section-title-light">Get in Touch</h2>
+      <h2 class="section-title light">Get in Touch</h2>
       <p class="contact-sub">I'm always open to new research opportunities, collaborations, or just a good conversation.</p>
-      <div class="contact-links">
+      <div class="contact-list">
         <a href="mailto:arvin611.ch@gmail.com" class="contact-item">
-          <span class="contact-icon">&#9993;</span>
+          <span class="contact-icon">✉</span>
           <span>arvin611.ch@gmail.com</span>
         </a>
-        <a href="https://www.linkedin.com/in/arvin-cw-chiang" target="_blank" class="contact-item">
-          <span class="contact-icon">&#128101;</span>
+        <a href="https://www.linkedin.com/in/arvin-cw-chiang" target="_blank" rel="noopener" class="contact-item">
+          <span class="contact-icon">👤</span>
           <span>linkedin.com/in/arvin-cw-chiang</span>
         </a>
         <a href="tel:+886966708681" class="contact-item">
-          <span class="contact-icon">&#128222;</span>
+          <span class="contact-icon">📞</span>
           <span>+886-966-708-681</span>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- ───── FOOTER ───── -->
   <footer class="footer">
     <p>&copy; 2026 Chengwei (Arvin) Chiang &nbsp;·&nbsp; Built with Berkeley Blue &amp; Gold</p>
   </footer>
