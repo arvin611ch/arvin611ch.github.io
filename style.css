@@ -718,6 +718,80 @@ ul {
 }
 
 /* ===========================
+   Sub-projects (inside Perchai card)
+   =========================== */
+.exp-desc {
+  font-size: 0.9rem;
+  color: var(--text-mid);
+  margin-bottom: 1.25rem;
+  font-style: italic;
+}
+
+.sub-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.sub-project {
+  border-left: 3px solid var(--cal-gold);
+  padding-left: 1rem;
+}
+
+.sub-project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.4rem;
+}
+
+.sub-project-title {
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: var(--berkeley-blue);
+}
+
+.sub-project-date {
+  font-size: 0.78rem;
+  color: var(--medalist);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.sub-project-tag {
+  font-size: 0.8rem;
+  color: var(--founders-rock);
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+/* Dark variant for leadership cards */
+.exp-card-dark {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: none;
+}
+
+.exp-card-dark:hover {
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+.exp-card-dark h3 {
+  color: var(--white);
+}
+
+.exp-card-dark .exp-date {
+  color: var(--cal-gold);
+}
+
+.exp-card-dark .exp-bullets li {
+  color: rgba(255,255,255,0.75);
+}
+
+/* ===========================
    Footer
    =========================== */
 .footer {
