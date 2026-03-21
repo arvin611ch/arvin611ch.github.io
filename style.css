@@ -349,69 +349,63 @@ ul { list-style: none; padding: 0; }
 }
 
 /* ============================================================
-   Timeline (Education)
+   Education Cards
    ============================================================ */
-.timeline { position: relative; padding-left: 2.25rem; }
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 0; top: 10px; bottom: 10px;
-  width: 2px;
-  background: rgba(253,181,21,0.3);
-}
+.edu-list { display: flex; flex-direction: column; gap: 1.25rem; }
 
-.timeline-item { position: relative; margin-bottom: 2.5rem; }
-
-.tl-dot {
-  position: absolute;
-  left: -2.78rem; top: 10px;
-  width: 14px; height: 14px;
-  border-radius: 50%;
-  background: var(--gold);
-  border: 3px solid var(--blue);
-  box-shadow: 0 0 0 3px rgba(253,181,21,0.28);
-}
-
-.tl-card {
+.edu-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.4rem 1.75rem;
   background: rgba(255,255,255,0.07);
-  border: 1px solid rgba(255,255,255,0.12);
-  border-radius: 8px;
-  padding: 1.6rem 2rem;
+  border: 1px solid rgba(255,255,255,0.13);
+  border-radius: 14px;
+  transition: background 0.25s, transform 0.2s, box-shadow 0.2s;
+}
+.edu-item:hover {
+  background: rgba(255,255,255,0.11);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.25);
 }
 
-.tl-head {
+.edu-logo-wrap {
+  width: 76px;
+  height: 76px;
+  flex-shrink: 0;
+  background: #fff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  overflow: hidden;
+}
+
+.edu-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.edu-content { flex: 1; min-width: 0; }
+
+.edu-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 1rem;
   flex-wrap: wrap;
-  margin-bottom: 0.6rem;
 }
 
-.tl-head-inner {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.tl-logo {
-  width: 56px;
-  height: 56px;
-  object-fit: contain;
-  background: white;
-  border-radius: 6px;
-  padding: 4px;
-  flex-shrink: 0;
-}
-
-.tl-head h3 {
-  font-size: 1.15rem;
+.edu-header h3 {
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--white);
   margin-bottom: 0.2rem;
 }
 
-.tl-sub  { color: rgba(255,255,255,0.68); font-size: 0.93rem; margin-bottom: 0.25rem; }
+.tl-sub  { color: rgba(255,255,255,0.68); font-size: 0.93rem; margin-bottom: 0.2rem; }
 .tl-note { color: rgba(255,255,255,0.48); font-size: 0.85rem; font-style: italic; }
 
 .badge-date {
@@ -425,14 +419,6 @@ ul { list-style: none; padding: 0; }
   white-space: nowrap;
   flex-shrink: 0;
 }
-
-.tl-courses {
-  font-size: 0.83rem;
-  color: rgba(255,255,255,0.5);
-  line-height: 1.65;
-  margin-top: 0.75rem;
-}
-.cw-label { font-weight: 700; color: var(--gold); margin-right: 0.35rem; }
 
 /* ============================================================
    Research – Featured Perchai Block
@@ -714,11 +700,11 @@ ul { list-style: none; padding: 0; }
 }
 
 @media (max-width: 600px) {
-  .nav-links   { display: none; }
+  .nav-links    { display: none; }
   .nav-hamburger { display: block; }
-  .section     { padding: 4rem 0; }
-  .timeline    { padding-left: 1.5rem; }
+  .section      { padding: 4rem 0; }
   .exp-featured { padding: 1.5rem; }
-  .skills-grid { grid-template-columns: 1fr; }
-  .tl-head     { flex-direction: column; }
+  .skills-grid  { grid-template-columns: 1fr; }
+  .edu-header   { flex-direction: column; }
+  .edu-logo-wrap { width: 60px; height: 60px; }
 }
