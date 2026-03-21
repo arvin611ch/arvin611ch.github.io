@@ -388,6 +388,22 @@ ul { list-style: none; padding: 0; }
   margin-bottom: 0.6rem;
 }
 
+.tl-head-inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tl-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  background: white;
+  border-radius: 6px;
+  padding: 4px;
+  flex-shrink: 0;
+}
+
 .tl-head h3 {
   font-size: 1.15rem;
   font-weight: 600;
