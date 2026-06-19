@@ -550,6 +550,7 @@ ul { list-style: none; padding: 0; }
 }
 
 .exp-card.full { grid-column: 1 / -1; }
+.exp-cards.single { grid-template-columns: 1fr; }
 
 .exp-card-head {
   display: flex;
