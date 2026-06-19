@@ -321,6 +321,7 @@ ul { list-style: none; padding: 0; }
   margin-bottom: 1.1rem;
 }
 .about-text strong { color: var(--blue); }
+.about-text a { color: var(--blue); font-weight: 700; }
 
 .about-stats { display: flex; flex-direction: column; gap: 1rem; }
 
