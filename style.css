@@ -549,6 +549,8 @@ ul { list-style: none; padding: 0; }
   border-top-color: var(--gold);
 }
 
+.exp-card.full { grid-column: 1 / -1; }
+
 .exp-card-head {
   display: flex;
   justify-content: space-between;
